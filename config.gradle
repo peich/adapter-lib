@@ -1,0 +1,11 @@
+ext {
+
+    // 建立Map存储，对象名、key可以自定义
+    androidId = [
+            compileSdkVersion: 32,
+            minSdkVersion    : 21,
+            targetSdkVersion : 32,
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+}
