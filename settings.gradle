@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-include ':app'
-include ':adapterLib'
+include ':adapter-module'
+include ':adapter-lib'
