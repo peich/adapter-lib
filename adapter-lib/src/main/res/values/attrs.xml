@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SimpleRecyclerView">
+        <!--列表类型-->
+        <attr name="adapter_type" format="enum">
+            <enum name="VERTICAL" value="0x00000000" />
+            <enum name="HORIZONTAL" value="0x00000001" />
+            <enum name="GRID" value="0x00000002" />
+        </attr>
+
+        <!--item行间距-->
+        <attr name="adapter_item_spacing" format="integer|dimension" />
+        <!--列表左侧行间距-->
+        <attr name="adapter_left_spacing" format="integer|dimension" />
+        <!--列表右侧行间距-->
+        <attr name="adapter_right_spacing" format="integer|dimension" />
+        <!--列表头部行间距-->
+        <attr name="adapter_top_spacing" format="integer|dimension" />
+        <!--列表尾部行间距-->
+        <attr name="adapter_bottom_spacing" format="integer|dimension" />
+
+        <!--网格布局列数-->
+        <attr name="grid_span_count" format="integer" />
+
+    </declare-styleable>
+</resources>

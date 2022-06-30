@@ -45,7 +45,6 @@ android {
 
 //依赖库版本
 def paging_version = "3.1.0"
-def recyclerview_version = "1.2.1"
 
 dependencies {
     //依赖库
@@ -55,7 +54,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 
     //列表
-    implementation "androidx.recyclerview:recyclerview:$recyclerview_version"
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
 
     //分页加载库
     implementation "androidx.paging:paging-runtime:$paging_version"
@@ -63,5 +62,5 @@ dependencies {
     implementation "androidx.paging:paging-rxjava3:$paging_version"
 
     //下拉刷新
-    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+    implementation  'io.github.scwang90:refresh-layout-kernel:2.0.5'      //核心必须依赖
 }

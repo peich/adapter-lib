@@ -1,4 +1,4 @@
-package com.pch.adapterlib
+package com.pch.adapter
 
 import org.junit.Test
 
